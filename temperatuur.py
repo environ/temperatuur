@@ -16,4 +16,4 @@ temperature = float(temperaturedata[2:])
 # Put the decimal point in the right place and display it.
 temperature = temperature / 1000
 
-r = requests.get('http://192.168.1.222/emoncms/input/post.json?node=1&json={t1:'+str(temperature)+'}&apikey=_Sinu_API_v6ti_Ssiia_')
+r = requests.get('http://192.168.1.222/emoncms/input/post.json?node=1&json={t1:'+str(temperature)+'}&apikey=_Sinu_API_v6ti_siia_')
